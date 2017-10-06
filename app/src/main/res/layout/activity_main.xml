@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.selvip.employeedetails.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Employee Registration"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@android:color/black" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_margin="20dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:hint="Email ID"
+        android:fontFamily="sans-serif"
+        android:inputType="textEmailAddress"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black" />
+
+
+    <EditText
+        android:id="@+id/passcode1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:hint="Set a passcode (6 digits)"
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black" />
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passcode1"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="Register"
+        android:fontFamily="sans-serif"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
+

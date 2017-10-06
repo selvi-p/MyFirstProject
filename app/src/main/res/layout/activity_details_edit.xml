@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.selvip.employeedetails.DetailsEditActivity">
+
+    <TextView
+        android:id="@+id/empLoginText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter the details to proceed"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@android:color/black" />
+
+
+    <EditText
+        android:id="@+id/empEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:hint="Enter employee Email ID"
+        android:inputType="textEmailAddress"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/empPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:hint="Enter employee passcode"
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/proceedEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="Proceed"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentRight="true"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+</LinearLayout>

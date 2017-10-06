@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.selvip.employeedetails.Main2Activity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Login"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@android:color/black" />
+
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:hint="Enter your email ID"
+        android:inputType="textEmailAddress"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/passcode2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="sans-serif"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:hint="Enter your passcode"
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="Login"
+        android:fontFamily="sans-serif"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

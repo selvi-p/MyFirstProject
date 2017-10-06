@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.selvip.employeedetails.ChooseActivity">
+
+
+    <Button
+        android:id="@+id/employeeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adminBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="Employee"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/adminBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/employeeBtn"
+        android:layout_alignRight="@+id/employeeBtn"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Admin"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.selvip.employeedetails.Main4Activity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Profile"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/userNameText"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/userNameText"
+        android:layout_below="@+id/textView2"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="30dp"
+        android:text="Email ID"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/holo_purple" />
+
+    <TextView
+        android:id="@+id/profileView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_alignBottom="@+id/emailText"
+        android:layout_alignLeft="@+id/userEdit"
+        android:layout_alignStart="@+id/userEdit"
+        android:layout_alignTop="@+id/emailText"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/userNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/emailText"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="10dp"
+        android:text="User Name"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/holo_purple" />
+
+    <TextView
+        android:id="@+id/userEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_alignBottom="@+id/userNameText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/emailText"
+        android:layout_toEndOf="@+id/userNameText"
+        android:layout_toRightOf="@+id/userNameText"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/empIdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_alignEnd="@+id/userNameText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/userNameText"
+        android:layout_below="@+id/userNameText"
+        android:layout_marginBottom="25dp"
+        android:layout_toStartOf="@+id/userEdit"
+        android:text="Emp ID"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/holo_purple" />
+
+    <TextView
+        android:id="@+id/empEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_alignBottom="@+id/empIdText"
+        android:layout_alignLeft="@+id/userEdit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/userEdit"
+        android:layout_alignTop="@+id/empIdText"
+        android:layout_toEndOf="@+id/empIdText"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/reportText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_alignEnd="@+id/empIdText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/empIdText"
+        android:layout_below="@+id/empIdText"
+        android:layout_marginBottom="25dp"
+        android:layout_toStartOf="@+id/empEdit"
+        android:text="Reporting"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/holo_purple" />
+
+    <TextView
+        android:id="@+id/reportEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_alignBottom="@+id/reportText"
+        android:layout_alignLeft="@+id/empEdit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/empEdit"
+        android:layout_alignTop="@+id/reportText"
+        android:layout_toEndOf="@+id/reportText"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/mobileText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_alignEnd="@+id/reportText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/reportText"
+        android:layout_below="@+id/reportText"
+        android:layout_marginBottom="25dp"
+        android:layout_toStartOf="@+id/mobileEdit"
+        android:text="Mobile"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/holo_purple" />
+
+    <TextView
+        android:id="@+id/mobileEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_alignBottom="@+id/mobileText"
+        android:layout_alignLeft="@+id/reportEdit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/reportEdit"
+        android:layout_alignTop="@+id/mobileText"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

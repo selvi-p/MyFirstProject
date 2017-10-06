@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "740354938557",
+    "firebase_url": "https://employeedetails-a7ea1.firebaseio.com",
+    "project_id": "employeedetails-a7ea1",
+    "storage_bucket": "employeedetails-a7ea1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740354938557:android:2df2e0dd2482536f",
+        "android_client_info": {
+          "package_name": "com.example.selvip.employeedetails"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740354938557-vnthjdhk2si6pga6t0kmj8mshfp6nvb4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.selvip.employeedetails",
+            "certificate_hash": "452393b6887b8cccf05593c3571aed29f2fd4a26"
+          }
+        },
+        {
+          "client_id": "740354938557-lcho18cfnhkffp03lp5lv88imrtjjv13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoBewD-xhCL9mEkQSWIxEhx-sd7MeyP6Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740354938557-lcho18cfnhkffp03lp5lv88imrtjjv13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740354938557:android:a0f6f028d0e24b7d",
+        "android_client_info": {
+          "package_name": "com.example.selvip.fireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740354938557-rl2rfm2cpb1tvih2b6n2ghgvs8lpoert.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.selvip.fireapp",
+            "certificate_hash": "452393b6887b8cccf05593c3571aed29f2fd4a26"
+          }
+        },
+        {
+          "client_id": "740354938557-lcho18cfnhkffp03lp5lv88imrtjjv13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoBewD-xhCL9mEkQSWIxEhx-sd7MeyP6Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740354938557-lcho18cfnhkffp03lp5lv88imrtjjv13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

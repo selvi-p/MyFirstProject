@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    tools:context="com.example.selvip.employeedetails.UserDetailEditActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif"
+        android:text=""
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/userDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_below="@+id/textView6"
+        android:text="User Details"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/empName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userDetails"
+        android:fontFamily="sans-serif"
+        android:layout_margin="20dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:hint="First Name"
+        android:inputType="textCapSentences"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:hint="Last Name"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="20dp"
+        android:inputType="textCapSentences"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/empName"
+        android:layout_alignRight="@+id/empName"
+        android:layout_alignEnd="@+id/empName"
+        android:layout_alignLeft="@+id/empName"
+        android:layout_alignStart="@+id/empName" />
+
+    <EditText
+        android:id="@+id/empMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lastName"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/empId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/empMobile"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textCapSentences"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:hint="Employee ID (e.g. E0000)"
+        android:maxLength="5"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/empReport"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:layout_below="@+id/empId"
+        android:layout_toRightOf="@+id/textView10"
+        android:layout_alignRight="@+id/empId"
+        android:layout_alignEnd="@+id/empId" />
+
+    <Button
+        android:id="@+id/doneBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="Save"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reporting to: "
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/empId"
+        android:layout_alignLeft="@+id/empId"
+        android:layout_alignStart="@+id/empId"
+        android:layout_alignBottom="@+id/spinner" />
+
+</RelativeLayout>
